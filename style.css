@@ -2,7 +2,7 @@
 
 /* General Styles */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Playfair Display', serif;
     margin: 0;
     padding: 0;
     background-color: #f2f2f2;
@@ -133,4 +133,26 @@ footer p {
     .section-wrapper {
         flex-direction: column;
     }
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #064B8B;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* About Section */
+#about p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#about p a {
+    margin-left: 10px;
 }
